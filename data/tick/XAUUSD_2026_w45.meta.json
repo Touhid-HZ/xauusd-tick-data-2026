@@ -1,0 +1,70 @@
+{
+ "file": "XAUUSD_2026_w45.csv.gz",
+ "instrument": "XAUUSD",
+ "week_index": 45,
+ "date_from": "2026-11-05",
+ "date_to_exclusive": "2026-11-10",
+ "rows": 1731070,
+ "compressed_bytes": 12943198,
+ "first_tick_utc": "2026-11-05 00:00:00.677",
+ "last_tick_utc": "2026-11-09 23:59:58.550",
+ "trading_days": 4,
+ "price_high": 4148.713,
+ "price_low": 4027.695,
+ "days": [
+  {
+   "date": "2026-11-05",
+   "ticks": 589604,
+   "first_tick": "2026-11-05 00:00:00.677",
+   "last_tick": "2026-11-05 23:59:59.397",
+   "open": 4065.579,
+   "high": 4147.025,
+   "low": 4061.34,
+   "close": 4086.332,
+   "ask_volume_m": 79.880752,
+   "bid_volume_m": 81.787449,
+   "avg_spread": 0.5623
+  },
+  {
+   "date": "2026-11-06",
+   "ticks": 526950,
+   "first_tick": "2026-11-06 00:00:00.057",
+   "last_tick": "2026-11-06 21:59:59.974",
+   "open": 4085.888,
+   "high": 4106.987,
+   "low": 4027.695,
+   "close": 4070.795,
+   "ask_volume_m": 72.041821,
+   "bid_volume_m": 72.112345,
+   "avg_spread": 0.5569
+  },
+  {
+   "date": "2026-11-08",
+   "ticks": 20895,
+   "first_tick": "2026-11-08 23:00:00.598",
+   "last_tick": "2026-11-08 23:59:58.817",
+   "open": 4066.24,
+   "high": 4073.395,
+   "low": 4054.409,
+   "close": 4055.718,
+   "ask_volume_m": 3.256004,
+   "bid_volume_m": 3.39922,
+   "avg_spread": 0.7547
+  },
+  {
+   "date": "2026-11-09",
+   "ticks": 593621,
+   "first_tick": "2026-11-09 00:00:00.027",
+   "last_tick": "2026-11-09 23:59:58.550",
+   "open": 4055.722,
+   "high": 4148.713,
+   "low": 4055.017,
+   "close": 4139.12,
+   "ask_volume_m": 78.842737,
+   "bid_volume_m": 81.884153,
+   "avg_spread": 0.5605
+  }
+ ],
+ "source": "Dukascopy Bank SA public data feed via dukascopy-node",
+ "schema": "timestamp,ask,bid,ask_volume,bid_volume (UTC, ms)"
+}
