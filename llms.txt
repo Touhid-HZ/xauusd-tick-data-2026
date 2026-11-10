@@ -1,0 +1,38 @@
+# XAUUSD Tick Data 2026 — Free Gold Tick-by-Tick Dataset
+
+> Machine-readable summary for AI agents and automated pipelines.
+> Human documentation: see README.md and data_dictionary.md.
+
+## What this is
+- Tick-by-tick spot gold (XAU/USD, OTC) quotes for calendar year 2026.
+- Source: Dukascopy Bank SA public data feed (datafeed.dukascopy.com),
+  decoded with dukascopy-node + custom bi5 decoder (cross-validated
+  11,708/11,708 rows identical against dukascopy-node output).
+- ~78.9 million ticks, 2026-01-01 through 2026-11-09 (UTC), auto-updated
+  weekly via GitHub Actions.
+
+## Schema (all tick files, gzip CSV)
+timestamp,ask,bid,ask_volume,bid_volume
+- timestamp: "YYYY-MM-DD HH:MM:SS.mmm", UTC, millisecond precision, sorted ascending
+- ask, bid: USD per troy ounce, 3 decimals, ask >= bid always
+- ask_volume, bid_volume: millions of units (Dukascopy convention)
+
+## Files
+- data/tick/XAUUSD_2026_w01.csv.gz ... w45.csv.gz — 7-day chunks starting 2026-01-01 (w01 = Jan 1-7)
+- data/tick/XAUUSD_2026_wNN.meta.json — per-week stats (rows, OHLC, volumes)
+- data/daily/XAUUSD_2026_daily_ohlcv.csv — daily OHLCV (mid price)
+- DATA_STATUS.json — live coverage/totals/inventory (check this first)
+- charts/XAUUSD_2026_daily_close.png — overview chart
+
+## Load with pandas
+import pandas as pd
+df = pd.read_csv("data/tick/XAUUSD_2026_w01.csv.gz",
+                 parse_dates=["timestamp"],
+                 date_format="%Y-%m-%d %H:%M:%S.%f")
+
+## Limits
+- Spot gold OTC quotes, not COMEX futures (GC) — prices differ slightly.
+- Volumes are indicative feed activity, not exchange contracts.
+- One holiday with zero ticks: 2026-04-03 (Good Friday). Jan 1 is thin.
+- License: MIT (packaging + code). Data belongs to its original source;
+  provided as-is for research and education.

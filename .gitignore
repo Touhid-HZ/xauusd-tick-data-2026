@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary downloader artifacts
+*.tmp
+*.tmp.gz
+download.log

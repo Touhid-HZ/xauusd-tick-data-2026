@@ -1,0 +1,488 @@
+{
+ "dataset": "XAUUSD tick-by-tick historical data (2026) \u2014 spot gold vs US dollar",
+ "instrument": "XAUUSD (Spot Gold / US Dollar, OTC)",
+ "source": "Dukascopy Bank SA public data feed (https://datafeed.dukascopy.com), decoded via dukascopy-node + custom decoder, cross-validated row-by-row",
+ "timezone": "UTC (GMT)",
+ "schema": {
+  "timestamp": "string, UTC, 'YYYY-MM-DD HH:MM:SS.mmm' (millisecond precision)",
+  "ask": "float, USD per troy ounce, 3 decimals",
+  "bid": "float, USD per troy ounce, 3 decimals",
+  "ask_volume": "float, millions of units (Dukascopy convention)",
+  "bid_volume": "float, millions of units (Dukascopy convention)"
+ },
+ "generated_at_utc": "2026-11-10 06:48:22",
+ "coverage": {
+  "from": "2026-01-01",
+  "to_exclusive": "2026-11-10",
+  "first_tick_utc": "2026-01-01 23:00:00.596",
+  "last_tick_utc": "2026-11-09 23:59:58.550"
+ },
+ "totals": {
+  "ticks": 78916474,
+  "days_with_ticks": 267,
+  "weekdays_with_ticks": 222,
+  "sundays_with_ticks": 45,
+  "weekly_files": 45,
+  "compressed_bytes": 601524172,
+  "compressed_mb": 601.5
+ },
+ "price_range_usd_per_oz": {
+  "low": 3870.253,
+  "high": 5598.26
+ },
+ "files": [
+  {
+   "file": "XAUUSD_2026_w01.csv.gz",
+   "week": 1,
+   "date_from": "2026-01-01",
+   "date_to_exclusive": "2026-01-08",
+   "rows": 1542732,
+   "compressed_bytes": 11426399,
+   "first_tick_utc": "2026-01-01 23:00:00.596",
+   "last_tick_utc": "2026-01-07 23:59:59.958"
+  },
+  {
+   "file": "XAUUSD_2026_w02.csv.gz",
+   "week": 2,
+   "date_from": "2026-01-08",
+   "date_to_exclusive": "2026-01-15",
+   "rows": 1916537,
+   "compressed_bytes": 14297565,
+   "first_tick_utc": "2026-01-08 00:00:00.109",
+   "last_tick_utc": "2026-01-14 23:59:59.600"
+  },
+  {
+   "file": "XAUUSD_2026_w03.csv.gz",
+   "week": 3,
+   "date_from": "2026-01-15",
+   "date_to_exclusive": "2026-01-22",
+   "rows": 1774913,
+   "compressed_bytes": 13359141,
+   "first_tick_utc": "2026-01-15 00:00:00.152",
+   "last_tick_utc": "2026-01-21 23:59:59.994"
+  },
+  {
+   "file": "XAUUSD_2026_w04.csv.gz",
+   "week": 4,
+   "date_from": "2026-01-22",
+   "date_to_exclusive": "2026-01-29",
+   "rows": 2350563,
+   "compressed_bytes": 18387744,
+   "first_tick_utc": "2026-01-22 00:00:00.095",
+   "last_tick_utc": "2026-01-28 23:59:59.915"
+  },
+  {
+   "file": "XAUUSD_2026_w05.csv.gz",
+   "week": 5,
+   "date_from": "2026-01-29",
+   "date_to_exclusive": "2026-02-05",
+   "rows": 3586287,
+   "compressed_bytes": 29783117,
+   "first_tick_utc": "2026-01-29 00:00:00.066",
+   "last_tick_utc": "2026-02-04 23:59:59.947"
+  },
+  {
+   "file": "XAUUSD_2026_w06.csv.gz",
+   "week": 6,
+   "date_from": "2026-02-05",
+   "date_to_exclusive": "2026-02-12",
+   "rows": 2155604,
+   "compressed_bytes": 17522898,
+   "first_tick_utc": "2026-02-05 00:00:00.099",
+   "last_tick_utc": "2026-02-11 23:59:59.999"
+  },
+  {
+   "file": "XAUUSD_2026_w07.csv.gz",
+   "week": 7,
+   "date_from": "2026-02-12",
+   "date_to_exclusive": "2026-02-19",
+   "rows": 1378585,
+   "compressed_bytes": 11010819,
+   "first_tick_utc": "2026-02-12 00:00:00.100",
+   "last_tick_utc": "2026-02-18 23:59:59.234"
+  },
+  {
+   "file": "XAUUSD_2026_w08.csv.gz",
+   "week": 8,
+   "date_from": "2026-02-19",
+   "date_to_exclusive": "2026-02-26",
+   "rows": 1360829,
+   "compressed_bytes": 10659478,
+   "first_tick_utc": "2026-02-19 00:00:00.189",
+   "last_tick_utc": "2026-02-25 23:59:59.987"
+  },
+  {
+   "file": "XAUUSD_2026_w09.csv.gz",
+   "week": 9,
+   "date_from": "2026-02-26",
+   "date_to_exclusive": "2026-03-05",
+   "rows": 2036709,
+   "compressed_bytes": 16361966,
+   "first_tick_utc": "2026-02-26 00:00:00.189",
+   "last_tick_utc": "2026-03-04 23:59:56.517"
+  },
+  {
+   "file": "XAUUSD_2026_w10.csv.gz",
+   "week": 10,
+   "date_from": "2026-03-05",
+   "date_to_exclusive": "2026-03-12",
+   "rows": 1792408,
+   "compressed_bytes": 14126225,
+   "first_tick_utc": "2026-03-05 00:00:00.080",
+   "last_tick_utc": "2026-03-11 23:59:59.989"
+  },
+  {
+   "file": "XAUUSD_2026_w11.csv.gz",
+   "week": 11,
+   "date_from": "2026-03-12",
+   "date_to_exclusive": "2026-03-19",
+   "rows": 1565325,
+   "compressed_bytes": 12179528,
+   "first_tick_utc": "2026-03-12 00:00:00.140",
+   "last_tick_utc": "2026-03-18 23:59:59.948"
+  },
+  {
+   "file": "XAUUSD_2026_w12.csv.gz",
+   "week": 12,
+   "date_from": "2026-03-19",
+   "date_to_exclusive": "2026-03-26",
+   "rows": 2986034,
+   "compressed_bytes": 24170333,
+   "first_tick_utc": "2026-03-19 00:00:00.070",
+   "last_tick_utc": "2026-03-25 23:59:58.579"
+  },
+  {
+   "file": "XAUUSD_2026_w13.csv.gz",
+   "week": 13,
+   "date_from": "2026-03-26",
+   "date_to_exclusive": "2026-04-02",
+   "rows": 2024100,
+   "compressed_bytes": 15947954,
+   "first_tick_utc": "2026-03-26 00:00:00.086",
+   "last_tick_utc": "2026-04-01 23:59:59.466"
+  },
+  {
+   "file": "XAUUSD_2026_w14.csv.gz",
+   "week": 14,
+   "date_from": "2026-04-02",
+   "date_to_exclusive": "2026-04-09",
+   "rows": 1712494,
+   "compressed_bytes": 13343599,
+   "first_tick_utc": "2026-04-02 00:00:00.119",
+   "last_tick_utc": "2026-04-08 23:59:59.905"
+  },
+  {
+   "file": "XAUUSD_2026_w15.csv.gz",
+   "week": 15,
+   "date_from": "2026-04-09",
+   "date_to_exclusive": "2026-04-16",
+   "rows": 1436267,
+   "compressed_bytes": 11010691,
+   "first_tick_utc": "2026-04-09 00:00:00.006",
+   "last_tick_utc": "2026-04-15 23:59:59.581"
+  },
+  {
+   "file": "XAUUSD_2026_w16.csv.gz",
+   "week": 16,
+   "date_from": "2026-04-16",
+   "date_to_exclusive": "2026-04-23",
+   "rows": 1495581,
+   "compressed_bytes": 11346787,
+   "first_tick_utc": "2026-04-16 00:00:00.134",
+   "last_tick_utc": "2026-04-22 23:59:59.655"
+  },
+  {
+   "file": "XAUUSD_2026_w17.csv.gz",
+   "week": 17,
+   "date_from": "2026-04-23",
+   "date_to_exclusive": "2026-04-30",
+   "rows": 2017591,
+   "compressed_bytes": 14865654,
+   "first_tick_utc": "2026-04-23 00:00:00.058",
+   "last_tick_utc": "2026-04-29 23:59:56.370"
+  },
+  {
+   "file": "XAUUSD_2026_w18.csv.gz",
+   "week": 18,
+   "date_from": "2026-04-30",
+   "date_to_exclusive": "2026-05-07",
+   "rows": 1875850,
+   "compressed_bytes": 13793407,
+   "first_tick_utc": "2026-04-30 00:00:00.087",
+   "last_tick_utc": "2026-05-06 23:59:59.178"
+  },
+  {
+   "file": "XAUUSD_2026_w19.csv.gz",
+   "week": 19,
+   "date_from": "2026-05-07",
+   "date_to_exclusive": "2026-05-14",
+   "rows": 2040153,
+   "compressed_bytes": 14930538,
+   "first_tick_utc": "2026-05-07 00:00:00.086",
+   "last_tick_utc": "2026-05-13 23:59:59.617"
+  },
+  {
+   "file": "XAUUSD_2026_w20.csv.gz",
+   "week": 20,
+   "date_from": "2026-05-14",
+   "date_to_exclusive": "2026-05-21",
+   "rows": 2369628,
+   "compressed_bytes": 17433904,
+   "first_tick_utc": "2026-05-14 00:00:00.069",
+   "last_tick_utc": "2026-05-20 23:59:59.914"
+  },
+  {
+   "file": "XAUUSD_2026_w21.csv.gz",
+   "week": 21,
+   "date_from": "2026-05-21",
+   "date_to_exclusive": "2026-05-28",
+   "rows": 1807708,
+   "compressed_bytes": 13176359,
+   "first_tick_utc": "2026-05-21 00:00:00.066",
+   "last_tick_utc": "2026-05-27 23:59:59.856"
+  },
+  {
+   "file": "XAUUSD_2026_w22.csv.gz",
+   "week": 22,
+   "date_from": "2026-05-28",
+   "date_to_exclusive": "2026-06-04",
+   "rows": 1574555,
+   "compressed_bytes": 11812602,
+   "first_tick_utc": "2026-05-28 00:00:00.058",
+   "last_tick_utc": "2026-06-03 23:59:57.999"
+  },
+  {
+   "file": "XAUUSD_2026_w23.csv.gz",
+   "week": 23,
+   "date_from": "2026-06-04",
+   "date_to_exclusive": "2026-06-11",
+   "rows": 2177425,
+   "compressed_bytes": 16374120,
+   "first_tick_utc": "2026-06-04 00:00:00.113",
+   "last_tick_utc": "2026-06-10 23:59:59.746"
+  },
+  {
+   "file": "XAUUSD_2026_w24.csv.gz",
+   "week": 24,
+   "date_from": "2026-06-11",
+   "date_to_exclusive": "2026-06-18",
+   "rows": 1841918,
+   "compressed_bytes": 13966894,
+   "first_tick_utc": "2026-06-11 00:00:00.050",
+   "last_tick_utc": "2026-06-17 23:59:59.930"
+  },
+  {
+   "file": "XAUUSD_2026_w25.csv.gz",
+   "week": 25,
+   "date_from": "2026-06-18",
+   "date_to_exclusive": "2026-06-25",
+   "rows": 1780258,
+   "compressed_bytes": 13419507,
+   "first_tick_utc": "2026-06-18 00:00:00.033",
+   "last_tick_utc": "2026-06-24 23:59:59.365"
+  },
+  {
+   "file": "XAUUSD_2026_w26.csv.gz",
+   "week": 26,
+   "date_from": "2026-06-25",
+   "date_to_exclusive": "2026-07-02",
+   "rows": 1830879,
+   "compressed_bytes": 13720973,
+   "first_tick_utc": "2026-06-25 00:00:00.069",
+   "last_tick_utc": "2026-07-01 23:59:59.803"
+  },
+  {
+   "file": "XAUUSD_2026_w27.csv.gz",
+   "week": 27,
+   "date_from": "2026-07-02",
+   "date_to_exclusive": "2026-07-09",
+   "rows": 1674613,
+   "compressed_bytes": 12338128,
+   "first_tick_utc": "2026-07-02 00:00:00.055",
+   "last_tick_utc": "2026-07-08 23:59:59.077"
+  },
+  {
+   "file": "XAUUSD_2026_w28.csv.gz",
+   "week": 28,
+   "date_from": "2026-07-09",
+   "date_to_exclusive": "2026-07-16",
+   "rows": 1720980,
+   "compressed_bytes": 12530607,
+   "first_tick_utc": "2026-07-09 00:00:00.080",
+   "last_tick_utc": "2026-07-15 23:59:59.952"
+  },
+  {
+   "file": "XAUUSD_2026_w29.csv.gz",
+   "week": 29,
+   "date_from": "2026-07-16",
+   "date_to_exclusive": "2026-07-23",
+   "rows": 1934340,
+   "compressed_bytes": 13848612,
+   "first_tick_utc": "2026-07-16 00:00:00.002",
+   "last_tick_utc": "2026-07-22 23:59:59.878"
+  },
+  {
+   "file": "XAUUSD_2026_w30.csv.gz",
+   "week": 30,
+   "date_from": "2026-07-23",
+   "date_to_exclusive": "2026-07-30",
+   "rows": 1256520,
+   "compressed_bytes": 9301726,
+   "first_tick_utc": "2026-07-23 00:00:00.079",
+   "last_tick_utc": "2026-07-29 23:59:59.906"
+  },
+  {
+   "file": "XAUUSD_2026_w31.csv.gz",
+   "week": 31,
+   "date_from": "2026-07-30",
+   "date_to_exclusive": "2026-08-06",
+   "rows": 1177461,
+   "compressed_bytes": 8917277,
+   "first_tick_utc": "2026-07-30 00:00:00.106",
+   "last_tick_utc": "2026-08-05 23:59:59.656"
+  },
+  {
+   "file": "XAUUSD_2026_w32.csv.gz",
+   "week": 32,
+   "date_from": "2026-08-06",
+   "date_to_exclusive": "2026-08-13",
+   "rows": 1187146,
+   "compressed_bytes": 9078820,
+   "first_tick_utc": "2026-08-06 00:00:00.007",
+   "last_tick_utc": "2026-08-12 23:59:59.578"
+  },
+  {
+   "file": "XAUUSD_2026_w33.csv.gz",
+   "week": 33,
+   "date_from": "2026-08-13",
+   "date_to_exclusive": "2026-08-20",
+   "rows": 1140696,
+   "compressed_bytes": 8696549,
+   "first_tick_utc": "2026-08-13 00:00:00.079",
+   "last_tick_utc": "2026-08-19 23:59:57.063"
+  },
+  {
+   "file": "XAUUSD_2026_w34.csv.gz",
+   "week": 34,
+   "date_from": "2026-08-20",
+   "date_to_exclusive": "2026-08-27",
+   "rows": 1350249,
+   "compressed_bytes": 10336380,
+   "first_tick_utc": "2026-08-20 00:00:00.120",
+   "last_tick_utc": "2026-08-26 23:59:58.114"
+  },
+  {
+   "file": "XAUUSD_2026_w35.csv.gz",
+   "week": 35,
+   "date_from": "2026-08-27",
+   "date_to_exclusive": "2026-09-03",
+   "rows": 1425014,
+   "compressed_bytes": 10869586,
+   "first_tick_utc": "2026-08-27 00:00:00.024",
+   "last_tick_utc": "2026-09-02 23:59:59.209"
+  },
+  {
+   "file": "XAUUSD_2026_w36.csv.gz",
+   "week": 36,
+   "date_from": "2026-09-03",
+   "date_to_exclusive": "2026-09-10",
+   "rows": 1165301,
+   "compressed_bytes": 8885025,
+   "first_tick_utc": "2026-09-03 00:00:00.111",
+   "last_tick_utc": "2026-09-09 23:59:59.985"
+  },
+  {
+   "file": "XAUUSD_2026_w37.csv.gz",
+   "week": 37,
+   "date_from": "2026-09-10",
+   "date_to_exclusive": "2026-09-17",
+   "rows": 2189301,
+   "compressed_bytes": 16559905,
+   "first_tick_utc": "2026-09-10 00:00:00.087",
+   "last_tick_utc": "2026-09-16 23:59:59.809"
+  },
+  {
+   "file": "XAUUSD_2026_w38.csv.gz",
+   "week": 38,
+   "date_from": "2026-09-17",
+   "date_to_exclusive": "2026-09-24",
+   "rows": 1214293,
+   "compressed_bytes": 9180543,
+   "first_tick_utc": "2026-09-17 00:00:00.110",
+   "last_tick_utc": "2026-09-23 23:59:59.933"
+  },
+  {
+   "file": "XAUUSD_2026_w39.csv.gz",
+   "week": 39,
+   "date_from": "2026-09-24",
+   "date_to_exclusive": "2026-10-01",
+   "rows": 1358402,
+   "compressed_bytes": 10247438,
+   "first_tick_utc": "2026-09-24 00:00:00.085",
+   "last_tick_utc": "2026-09-30 23:59:58.864"
+  },
+  {
+   "file": "XAUUSD_2026_w40.csv.gz",
+   "week": 40,
+   "date_from": "2026-10-01",
+   "date_to_exclusive": "2026-10-08",
+   "rows": 1233568,
+   "compressed_bytes": 9048758,
+   "first_tick_utc": "2026-10-01 00:00:00.017",
+   "last_tick_utc": "2026-10-07 23:59:58.382"
+  },
+  {
+   "file": "XAUUSD_2026_w41.csv.gz",
+   "week": 41,
+   "date_from": "2026-10-08",
+   "date_to_exclusive": "2026-10-15",
+   "rows": 1175995,
+   "compressed_bytes": 8597369,
+   "first_tick_utc": "2026-10-08 00:00:00.091",
+   "last_tick_utc": "2026-10-14 23:59:59.659"
+  },
+  {
+   "file": "XAUUSD_2026_w42.csv.gz",
+   "week": 42,
+   "date_from": "2026-10-15",
+   "date_to_exclusive": "2026-10-22",
+   "rows": 1782842,
+   "compressed_bytes": 13288146,
+   "first_tick_utc": "2026-10-15 00:00:00.113",
+   "last_tick_utc": "2026-10-21 23:59:55.909"
+  },
+  {
+   "file": "XAUUSD_2026_w43.csv.gz",
+   "week": 43,
+   "date_from": "2026-10-22",
+   "date_to_exclusive": "2026-10-29",
+   "rows": 1448068,
+   "compressed_bytes": 10698696,
+   "first_tick_utc": "2026-10-22 00:00:00.092",
+   "last_tick_utc": "2026-10-28 23:59:59.658"
+  },
+  {
+   "file": "XAUUSD_2026_w44.csv.gz",
+   "week": 44,
+   "date_from": "2026-10-29",
+   "date_to_exclusive": "2026-11-05",
+   "rows": 2319682,
+   "compressed_bytes": 17729207,
+   "first_tick_utc": "2026-10-29 00:00:00.110",
+   "last_tick_utc": "2026-11-04 23:59:58.812"
+  },
+  {
+   "file": "XAUUSD_2026_w45.csv.gz",
+   "week": 45,
+   "date_from": "2026-11-05",
+   "date_to_exclusive": "2026-11-10",
+   "rows": 1731070,
+   "compressed_bytes": 12943198,
+   "first_tick_utc": "2026-11-05 00:00:00.677",
+   "last_tick_utc": "2026-11-09 23:59:58.550"
+  }
+ ],
+ "daily_ohlcv": "data/daily/XAUUSD_2026_daily_ohlcv.csv",
+ "update_policy": "GitHub Action refreshes the dataset every Monday ~03:00 UTC (re-downloads trailing weeks, appends new ones)",
+ "license": "MIT (code and packaging); data belongs to its original source and is provided as-is for research/education"
+}
