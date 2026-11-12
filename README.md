@@ -2,6 +2,10 @@
 
 **Complete tick-by-tick historical data for spot gold (XAU/USD) for calendar year 2026** — **78,916,474 real ticks** with UTC millisecond timestamps, bid & ask prices and volumes, extracted from **Dukascopy Bank SA's public data feed**. Free to download, pandas-ready, backtesting-ready, and **auto-updated every week**.
 
+> **Looking for 2025 data?** The companion repository
+> **[Touhid-HZ/xauusd-tick-data-2025](https://github.com/Touhid-HZ/xauusd-tick-data-2025)**
+> contains the complete 2025 calendar year — 71,403,972 ticks in 53 weekly files.
+
 If you need high-resolution gold data for backtesting, quantitative research, machine learning, spread analysis or MetaTrader 5 — this repository gives you the whole year in convenient weekly CSV.gz files, no signup, no paid API, no scraping required.
 
 ![XAUUSD 2026 daily close](charts/XAUUSD_2026_daily_close.png)
