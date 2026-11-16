@@ -10,24 +10,24 @@
   "ask_volume": "float, millions of units (Dukascopy convention)",
   "bid_volume": "float, millions of units (Dukascopy convention)"
  },
- "generated_at_utc": "2026-11-10 06:48:22",
+ "generated_at_utc": "2026-11-16 10:37:35",
  "coverage": {
   "from": "2026-01-01",
-  "to_exclusive": "2026-11-10",
+  "to_exclusive": "2026-11-16",
   "first_tick_utc": "2026-01-01 23:00:00.596",
-  "last_tick_utc": "2026-11-09 23:59:58.550"
+  "last_tick_utc": "2026-11-15 23:59:59.165"
  },
  "totals": {
-  "ticks": 78916474,
-  "days_with_ticks": 267,
-  "weekdays_with_ticks": 222,
-  "sundays_with_ticks": 45,
-  "weekly_files": 45,
-  "compressed_bytes": 601524172,
-  "compressed_mb": 601.5
+  "ticks": 80868277,
+  "days_with_ticks": 272,
+  "weekdays_with_ticks": 226,
+  "sundays_with_ticks": 46,
+  "weekly_files": 46,
+  "compressed_bytes": 616578364,
+  "compressed_mb": 616.6
  },
  "price_range_usd_per_oz": {
-  "low": 3870.253,
+  "low": 3852.566,
   "high": 5598.26
  },
  "files": [
@@ -466,8 +466,8 @@
    "week": 44,
    "date_from": "2026-10-29",
    "date_to_exclusive": "2026-11-05",
-   "rows": 2319682,
-   "compressed_bytes": 17729207,
+   "rows": 2319930,
+   "compressed_bytes": 17731121,
    "first_tick_utc": "2026-10-29 00:00:00.110",
    "last_tick_utc": "2026-11-04 23:59:58.812"
   },
@@ -475,11 +475,21 @@
    "file": "XAUUSD_2026_w45.csv.gz",
    "week": 45,
    "date_from": "2026-11-05",
-   "date_to_exclusive": "2026-11-10",
-   "rows": 1731070,
-   "compressed_bytes": 12943198,
+   "date_to_exclusive": "2026-11-12",
+   "rows": 2674012,
+   "compressed_bytes": 20236622,
    "first_tick_utc": "2026-11-05 00:00:00.677",
-   "last_tick_utc": "2026-11-09 23:59:58.550"
+   "last_tick_utc": "2026-11-11 23:59:59.017"
+  },
+  {
+   "file": "XAUUSD_2026_w46.csv.gz",
+   "week": 46,
+   "date_from": "2026-11-12",
+   "date_to_exclusive": "2026-11-16",
+   "rows": 1008613,
+   "compressed_bytes": 7758854,
+   "first_tick_utc": "2026-11-12 00:00:00.079",
+   "last_tick_utc": "2026-11-15 23:59:59.165"
   }
  ],
  "daily_ohlcv": "data/daily/XAUUSD_2026_daily_ohlcv.csv",
