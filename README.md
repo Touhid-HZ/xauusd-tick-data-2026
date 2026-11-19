@@ -5,6 +5,8 @@
 > **Looking for 2025 data?** The companion repository
 > **[Touhid-HZ/xauusd-tick-data-2025](https://github.com/Touhid-HZ/xauusd-tick-data-2025)**
 > contains the complete 2025 calendar year — 71,403,972 ticks in 53 weekly files.
+> **Looking for 2024 data?** [Touhid-HZ/xauusd-tick-data-2024](https://github.com/Touhid-HZ/xauusd-tick-data-2024)
+> contains the complete 2024 calendar year — 56,217,145 ticks in 53 weekly files.
 
 If you need high-resolution gold data for backtesting, quantitative research, machine learning, spread analysis or MetaTrader 5 — this repository gives you the whole year in convenient weekly CSV.gz files, no signup, no paid API, no scraping required.
 
