@@ -10,24 +10,24 @@
   "ask_volume": "float, millions of units (Dukascopy convention)",
   "bid_volume": "float, millions of units (Dukascopy convention)"
  },
- "generated_at_utc": "2026-11-16 10:37:35",
+ "generated_at_utc": "2026-11-23 11:46:29",
  "coverage": {
   "from": "2026-01-01",
-  "to_exclusive": "2026-11-16",
+  "to_exclusive": "2026-11-23",
   "first_tick_utc": "2026-01-01 23:00:00.596",
-  "last_tick_utc": "2026-11-15 23:59:59.165"
+  "last_tick_utc": "2026-11-22 23:59:59.140"
  },
  "totals": {
-  "ticks": 80868277,
-  "days_with_ticks": 272,
-  "weekdays_with_ticks": 226,
-  "sundays_with_ticks": 46,
-  "weekly_files": 46,
-  "compressed_bytes": 616578364,
-  "compressed_mb": 616.6
+  "ticks": 84371369,
+  "days_with_ticks": 278,
+  "weekdays_with_ticks": 231,
+  "sundays_with_ticks": 47,
+  "weekly_files": 47,
+  "compressed_bytes": 643777708,
+  "compressed_mb": 643.8
  },
  "price_range_usd_per_oz": {
-  "low": 3852.566,
+  "low": 3502.915,
   "high": 5598.26
  },
  "files": [
@@ -476,20 +476,30 @@
    "week": 45,
    "date_from": "2026-11-05",
    "date_to_exclusive": "2026-11-12",
-   "rows": 2674012,
-   "compressed_bytes": 20236622,
+   "rows": 2674446,
+   "compressed_bytes": 20239963,
    "first_tick_utc": "2026-11-05 00:00:00.677",
-   "last_tick_utc": "2026-11-11 23:59:59.017"
+   "last_tick_utc": "2026-11-11 23:59:59.374"
   },
   {
    "file": "XAUUSD_2026_w46.csv.gz",
    "week": 46,
    "date_from": "2026-11-12",
-   "date_to_exclusive": "2026-11-16",
-   "rows": 1008613,
-   "compressed_bytes": 7758854,
+   "date_to_exclusive": "2026-11-19",
+   "rows": 2946189,
+   "compressed_bytes": 22867554,
    "first_tick_utc": "2026-11-12 00:00:00.079",
-   "last_tick_utc": "2026-11-15 23:59:59.165"
+   "last_tick_utc": "2026-11-18 23:59:58.999"
+  },
+  {
+   "file": "XAUUSD_2026_w47.csv.gz",
+   "week": 47,
+   "date_from": "2026-11-19",
+   "date_to_exclusive": "2026-11-23",
+   "rows": 1565082,
+   "compressed_bytes": 12087303,
+   "first_tick_utc": "2026-11-19 00:00:00.058",
+   "last_tick_utc": "2026-11-22 23:59:59.140"
   }
  ],
  "daily_ohlcv": "data/daily/XAUUSD_2026_daily_ohlcv.csv",
